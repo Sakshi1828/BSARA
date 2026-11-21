@@ -1,0 +1,13 @@
+# Tested with Python 3.11 on Windows 11 + CUDA 12.4 (RTX 4050, 6 GB).
+# For GPU builds of torch, install from https://pytorch.org first, then the rest.
+torch==2.6.0
+torchvision==0.21.0
+ultralytics==8.4.37
+opencv-python==4.13.0.92
+numpy==2.4.3
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.8
+pillow==12.1.1
+PyYAML==6.0.3
+streamlit==1.56.0

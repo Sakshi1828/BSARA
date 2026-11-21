@@ -1,0 +1,23 @@
+# Datasets are third-party: download them yourself (see DATA.md), never commit them
+data/*
+!data/index.csv
+
+# Model weights and training runs (publish weights as a GitHub Release asset instead)
+*.pt
+runs/
+models/
+
+# Generated / local-only
+results/cv_log.txt
+results/final_log.txt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Personal documents and notes
+result.txt
+*.docx
+*.txt.txt
+explore_data.py.txt
+desktop.ini

@@ -1,0 +1,11 @@
+# Relative to the repo root; train.py resolves it to an absolute path at runtime.
+path: data/split_dataset
+
+train: train/images
+val: val/images
+
+nc: 3
+names:
+  0: drip
+  1: impact_beating
+  2: gunshot
