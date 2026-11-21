@@ -4,11 +4,16 @@ BSARA uses three public, peer-reviewed laboratory datasets. **None of the images
 redistributed in this repository.** Download them from the original sources, respect
 their licenses, and cite the original authors.
 
-| Class | Dataset | Source | Images used |
+| Class | Dataset | License | Images used |
 |---|---|---|---|
-| `impact_beating` | Impact beating spatter patterns (Attinger et al.) | CSAFE / ScienceDirect. TODO: add DOI + license | 61 scans |
-| `gunshot` | Gunshot backspatter patterns | Iowa State University Figshare. TODO: add DOI + license | 8 scans |
-| `drip` | Passive drip stains on paper, 25/50/75 cm drop heights | Ontario Tech University / ScienceDirect (2025). TODO: add DOI + license | 1,032 images of 300 drops |
+| `impact_beating` | Attinger D, Liu Y, Bybee T, De Brabanter K. *A data set of bloodstain patterns for teaching and research in bloodstain pattern analysis: Impact beating spatters.* Data in Brief 18 (2018) 648–654. [doi:10.1016/j.dib.2018.02.070](https://doi.org/10.1016/j.dib.2018.02.070) | CC BY 4.0 | 61 scans |
+| `gunshot` | Attinger D, et al. *A data set of bloodstain patterns for teaching and research in bloodstain pattern analysis: Gunshot backspatters.* Data in Brief 22 (2019) 269–278. doi:10.1016/j.dib.2018.11.075 (TODO: confirm on ScienceDirect). Images: [Iowa State figshare collection](https://iastate.figshare.com/collections/Blood_stain_pattern_and_fluid_dynamics_datasets/5672977) | CC BY-NC-ND 4.0 per repository record (TODO: confirm) | 8 scans |
+| `drip` | Kannan S, Pachong SM, Lewis PR, Stotesbury T. *A dataset of drip patterns for teaching and research purposes in forensic bloodstain pattern analysis.* Data in Brief 59 (2025) 111352. Images: [Ontario Tech Borealis dataverse](https://borealisdata.ca/dataverse/ontariotechu) (paper substrate, 25/50/75 cm subset) | TODO: check the Borealis dataset page | 1,032 images of 300 drops |
+
+**License consequences.** If the gunshot data is NonCommercial, the models trained here, and
+any released weights, are for **non-commercial research only**. Because of the NoDerivatives
+clause, this repository shows no images derived from the gunshot or drip data. The example
+figure in the README uses only the CC BY impact dataset (Attinger et al. 2018).
 
 > All blood used in these datasets is animal blood (bovine or swine) deposited under controlled
 > laboratory conditions. None of it is crime-scene material.

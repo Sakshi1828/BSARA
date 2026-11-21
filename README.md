@@ -48,8 +48,8 @@ blood pixel away (`bsara/stain_removal.py`) and retrained:
 
 ![stain removal examples](results/stain_removal_examples.jpg)
 
-*Left: original · middle: detected blood mask · right: blood removed. Only paper and lighting
-remain.*
+*Impact spatter scans from Attinger et al. 2018 (CC BY 4.0). Left: original · middle: detected
+blood mask · right: blood removed. Only paper and lighting remain.*
 
 ## v2 results (`bsara/`)
 
